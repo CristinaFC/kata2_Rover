@@ -33,6 +33,14 @@ public class Rover {
 		this.heading = heading;
 	}
 
+	public Heading heading() {
+		return heading;
+	}
+
+	public Position position(){
+		return position;
+	}
+
 	public void go(String instructions){
 		Arrays.stream(instructions.split(""))
 				.map(Order::of)
