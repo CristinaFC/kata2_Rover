@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java_refactoring" />
+        <module name="kata2_Rover" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java_refactoring" target="1.8" />
+      <module name="kata2_Rover" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
